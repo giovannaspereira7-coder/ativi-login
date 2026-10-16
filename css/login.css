@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 228, 243);
+}
+
+.container{
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+    /*borda arredondada*/
+    border-radius: 10px;
+    
+}
+
+.container h1{
+    text-align: center; 
+    color: rgb(245, 165, 185); 
+    font-size: 40px; 
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+/*campos de texto. email, senha e select*/
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.opcoes label{
+    display: inline;
+    margin-right: 10px;
+}
+
+button{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(35, 173, 0);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+button:hover{
+background-color: green;
+}
+
+.imagem{
+border-radius: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img{
+    width: 100px;
+border-radius: 100%;
+margin-bottom: 30px;
+}
+
+label{
+    color: #f3a0c7;
+}
+
+
