@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="./css/formulario.css">
 </head>
 
 <body>
+      <div class="imagem">
+        <img src="img/cadastro.jpg" alt="cadastro">
+    </div>
     <div class="container">
- <h1>Cadastro de alunos</h1>
+ <h1>Cadastro Alunos</h1>
 
     <form>
 
-        <div class="tutor">
+        <div class="campo">
         </div>
         <div class="form-control">
-            <label for="nome">Nome:</label>
-            <input type="text"  id="nome">
-        </div>
-
-        <div class="form-control">
-            <label for="email">Email:</label>
-            <input type="email" id="email">
+            <label for="nome">Nome Completo</label>
+            <input type="text"  id="nome" placeholder="Digite seu nome">
         </div>
 
         <div class="form-control">
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha"/>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
         </div>
 
         <div class="form-control">
-            <label for="data">Data de nascimento:</label>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha"/>
+        </div>
+
+        <div class="form-control">
+            <label for="data">Data de nascimento</label>
             <input type="date" id="data"/>
         </div>
 
         <div class="form-control">
             <label for="curso">Curso</label>
        <select id="curso">
-        <option value="">Selecione</option>
+        <option value="">Selecione seu curso</option>
         <option value="informatica">Informática</option>
         <option value="progamacao">Programação</option>
+        <option value="progamacao">Administração</option>
+        <option value="progamacao">Back-end</option>
+        <option value="progamacao">Excel</option>
        </select>
         </div>
 
@@ -50,7 +56,7 @@
         </div>
     </form>
     <br>
-    <a href="login.html">Página de login</a>
+    <a href="login.html">Ir para login</a>
     </div>
      
 </body>

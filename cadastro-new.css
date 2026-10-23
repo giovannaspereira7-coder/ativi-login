@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(215, 245, 235);
+}
+
+.container{
+    max-width: 500px;
+    border: 1px solid #686666;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.container h1{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.form-control label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+.form-control input{
+    width: 100%;
+    padding: 5px;
+}
+
+.form-control button{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(1, 194, 130);
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+

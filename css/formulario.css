@@ -1,46 +1,89 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
-    background: white;
+    background: #fff7fb;;
 }
 
 .container{
+    width: 100%;
     max-width: 500px;
     /*centralizar*/
     margin: auto;
+    padding: 38px;
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    color: #b51d60;
+   
 }
+
 
 label{
     display: block;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #bd4f83;
+    font-size: 15px;
+    margin-bottom: 9px; 
+    
 }
 
 input,
 select{
     width: 100%;
-    padding: 8px;
+    padding: 14px;
+    border: 1.5px solid #f0bfd5;
+    border-radius: 12px;
+    background: #fffdfd;
+    color: #75445b;
+    font-size: 14px;
+    border: 2px solid #f7bfd8;
+}
+
+input::placeholder{
+color: #c8a7b7;
 }
 
 .btn-cadastro, .btn-limpar{
-    background: rgb(15, 126, 0);
-    color: aliceblue;
-    padding: 10px;
-    border: 0;
+    background: #f28ab9;
+    border: none;
     margin: 10px;
     cursor: pointer;
-    
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+  width: 100%;
+    padding: 19px;
+}
+.btn-limpar{
+    background: #d9a0b9;
 }
 
-.btn-limpar{
-    background: rgb(255, 73, 73);
+.container a{
+     color: #ffb5ce;
+    text-decoration: none;
+    margin-left: 219px;
 }
+
+.imagem{
+      border-radius: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.imagem img{
+width: 15%;
+border-radius: 100%;
+margin-bottom: 30px;
+}
+
 

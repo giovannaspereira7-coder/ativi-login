@@ -1,26 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 228, 243);
+    background-color: #fff7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 18px;
+    color: #9f285c;
 }
 
 .container{
-    max-width: 500px;
-    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 470px;
     margin: 0 auto;
-    padding: 20px;
-    /*borda arredondada*/
-    border-radius: 10px;
-    
+    padding: 38px;
 }
 
 .container h1{
     text-align: center; 
-    color: rgb(245, 165, 185); 
-    font-size: 40px; 
+    color: #b51d60; 
+    font-size: 32px; 
+    margin-bottom: 12px;
+}
+p{
+    text-align: center;
+    color: #bd7a99;
+    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 .form-control{
     margin-bottom: 15px;
+   font-size: 17px;
+   margin: 5px 0 25px;
 }
 
 /*campos de texto. email, senha e select*/
@@ -29,30 +45,39 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 select {
-    width: 95%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 0;
+  width: 100%;
+    padding: 18px;
+    border: 2px solid #f7bfd8;
+    border-radius: 15px;
+    background-color: #fffdfd;
+    color: #8e2452;
+    font-size: 15px;
+}
+.container input::placeholder{
+    color: #c8a7b7;
 }
 
-.opcoes label{
-    display: inline;
-    margin-right: 10px;
+
+.opcoes{
+    background-color: #fbe5f0;
+    border-radius: 18px;
+    padding: 22px;
+    margin: 28px 0;
+    width: 100%;
 }
+
+
 
 button{
-    width: 95%;
+    width: 100%;
     margin: 10px;
     padding: 10px;
-    background-color: rgb(35, 173, 0);
-    border-radius: 5px;
-    border: 0;
+    background-color: #f28ab9;
+    border-radius: 14px;
+    border: none;
     cursor: pointer;
     color: aliceblue;
-}
-
-button:hover{
-background-color: green;
+    font-size: 16px;
 }
 
 .imagem{
@@ -71,6 +96,12 @@ margin-bottom: 30px;
 
 label{
     color: #f3a0c7;
+}
+
+a{
+       color: #ffb5ce;
+    text-decoration: none;
+    margin-left: 170px;
 }
 
 
