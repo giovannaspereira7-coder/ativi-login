@@ -1,63 +1,61 @@
-<!DOCTYPE html> 
-<html lang="pt-br"> 
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="./css/formulario.css">
+    <title>PetLove</title>
+     <link rel="stylesheet" href="./css/formulario.css">
 </head>
-
 <body>
-      <div class="imagem">
-        <img src="img/cadastro.jpg" alt="cadastro">
-    </div>
-    <div class="container">
- <h1>Cadastro Alunos</h1>
 
     <form>
+      <div class="boas-vindas">
+        <h1>
+            <img class="patinha" src="./img/patinha-love.webp" alt="patinha" >
+            PetLove</h1>
+         <nav>
+                <a href="#">Início</a>
+                <a href="#">Login</a>
+            </nav>
+      </div>
 
-        <div class="campo">
+        <div class="img">
+            <img src="./img/img-fundo.png" alt="pet">
         </div>
-        <div class="form-control">
-            <label for="nome">Nome Completo</label>
-            <input type="text"  id="nome" placeholder="Digite seu nome">
-        </div>
+      
+        <div class="cadastro">
 
-        <div class="form-control">
+            <h2>Crie sua conta</h2>
+            <p>Faça parte do nosso mundo pet!</p>
+        </div>
+          
+         <div class="form-control">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+         </div>
+
+          <div class="form-control">
             <label for="email">E-mail</label>
             <input type="email" id="email" placeholder="Digite seu e-mail">
-        </div>
+         </div>
 
-        <div class="form-control">
+          <div class="form-control">
             <label for="senha">Senha</label>
-            <input type="password" id="senha" placeholder="Digite sua senha"/>
-        </div>
+            <input type="password" id="senha" placeholder="Digite sua senha">
+         </div>
 
-        <div class="form-control">
-            <label for="data">Data de nascimento</label>
-            <input type="date" id="data"/>
-        </div>
+         <div class="form-control">
+              <label for="senha">Confirmar senha</label>
+              <input type="password" placeholder="Confirme sua senha">
+         </div>
 
-        <div class="form-control">
-            <label for="curso">Curso</label>
-       <select id="curso">
-        <option value="">Selecione seu curso</option>
-        <option value="informatica">Informática</option>
-        <option value="progamacao">Programação</option>
-        <option value="progamacao">Administração</option>
-        <option value="progamacao">Back-end</option>
-        <option value="progamacao">Excel</option>
-       </select>
-        </div>
+            <button type="submit">Cadastrar</button>
 
-        <div class="form-control">
-            <button type="submit" class="btn-cadastro">Cadastrar</button>
-            <button type="reset" class="btn-limpar">Limpar</button>
-        </div>
     </form>
-    <br>
-    <a href="login.html">Ir para login</a>
-    </div>
-     
+
+    <p class="entrar">
+        Já tem uma conta? <a href="#">Esqueci minha senha</a>
+    </p>
+    
 </body>
 </html>
